@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A849605B188C2E6300624C45 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A8EE4791188BF7E4001796CD /* Prefix.pch */; };
-		A849605C188C2E6A00624C45 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A8EE4791188BF7E4001796CD /* Prefix.pch */; };
 		A84960B3188C2EA900624C45 /* hb-ft.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605E188C2EA900624C45 /* hb-ft.cc */; };
 		A84960B4188C2EA900624C45 /* hb-set.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605F188C2EA900624C45 /* hb-set.cc */; };
 		A84960B5188C2EA900624C45 /* hb-set.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496060188C2EA900624C45 /* hb-set.h */; };
@@ -94,8 +92,178 @@
 		A8496105188C2EA900624C45 /* hb-ot.h in Headers */ = {isa = PBXBuildFile; fileRef = A84960B0188C2EA900624C45 /* hb-ot.h */; };
 		A8496106188C2EA900624C45 /* hb-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960B1188C2EA900624C45 /* hb-private.hh */; };
 		A8496107188C2EA900624C45 /* hb-set-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960B2188C2EA900624C45 /* hb-set-private.hh */; };
-		A8496108188C304E00624C45 /* hb-ft.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605E188C2EA900624C45 /* hb-ft.cc */; };
-		A8496109188C305400624C45 /* hb-ft.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605E188C2EA900624C45 /* hb-ft.cc */; };
+		A8D7C09E1A75BE9900002385 /* unicodedata_db.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496073188C2EA900624C45 /* unicodedata_db.h */; };
+		A8D7C09F1A75BE9900002385 /* hb-shaper-impl-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496066188C2EA900624C45 /* hb-shaper-impl-private.hh */; };
+		A8D7C0A01A75BE9900002385 /* hb-shape.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496065188C2EA900624C45 /* hb-shape.h */; };
+		A8D7C0A11A75BE9900002385 /* hb-ot.h in Headers */ = {isa = PBXBuildFile; fileRef = A84960B0188C2EA900624C45 /* hb-ot.h */; };
+		A8D7C0A21A75BE9900002385 /* hb-deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = A849607D188C2EA900624C45 /* hb-deprecated.h */; };
+		A8D7C0A31A75BE9900002385 /* hb-common.h in Headers */ = {isa = PBXBuildFile; fileRef = A849607C188C2EA900624C45 /* hb-common.h */; };
+		A8D7C0A41A75BE9900002385 /* hb-ot-layout.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496095188C2EA900624C45 /* hb-ot-layout.h */; };
+		A8D7C0A51A75BE9900002385 /* hb-ot-shape-normalize-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960AA188C2EA900624C45 /* hb-ot-shape-normalize-private.hh */; };
+		A8D7C0A61A75BE9900002385 /* hb-face.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496080188C2EA900624C45 /* hb-face.h */; };
+		A8D7C0A71A75BE9900002385 /* hb-ot-shape-complex-arabic-fallback.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609A188C2EA900624C45 /* hb-ot-shape-complex-arabic-fallback.hh */; };
+		A8D7C0A81A75BE9900002385 /* hb-ot-name-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496099188C2EA900624C45 /* hb-ot-name-table.hh */; };
+		A8D7C0A91A75BE9900002385 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A8EE4791188BF7E4001796CD /* Prefix.pch */; };
+		A8D7C0AA1A75BE9900002385 /* hb-shape-plan.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496063188C2EA900624C45 /* hb-shape-plan.h */; };
+		A8D7C0AB1A75BE9900002385 /* hb-ot-tag.h in Headers */ = {isa = PBXBuildFile; fileRef = A84960AF188C2EA900624C45 /* hb-ot-tag.h */; };
+		A8D7C0AC1A75BE9900002385 /* hb-ot-layout-gsubgpos-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496091188C2EA900624C45 /* hb-ot-layout-gsubgpos-private.hh */; };
+		A8D7C0AD1A75BE9900002385 /* hb-object-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496087188C2EA900624C45 /* hb-object-private.hh */; };
+		A8D7C0AE1A75BE9900002385 /* hb-utf-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849606E188C2EA900624C45 /* hb-utf-private.hh */; };
+		A8D7C0AF1A75BE9900002385 /* hb-ft.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496085188C2EA900624C45 /* hb-ft.h */; };
+		A8D7C0B01A75BE9900002385 /* hb-ot-shape-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960AC188C2EA900624C45 /* hb-ot-shape-private.hh */; };
+		A8D7C0B11A75BE9900002385 /* hb-shaper-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496068188C2EA900624C45 /* hb-shaper-private.hh */; };
+		A8D7C0B21A75BE9900002385 /* hb-ot-layout-gsub-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496090188C2EA900624C45 /* hb-ot-layout-gsub-table.hh */; };
+		A8D7C0B31A75BE9900002385 /* hb-ot-layout-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496093188C2EA900624C45 /* hb-ot-layout-private.hh */; };
+		A8D7C0B41A75BE9900002385 /* hb-mutex-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496086188C2EA900624C45 /* hb-mutex-private.hh */; };
+		A8D7C0B51A75BE9900002385 /* hb-shaper-list.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496067188C2EA900624C45 /* hb-shaper-list.hh */; };
+		A8D7C0B61A75BE9900002385 /* hb-ot-hmtx-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608C188C2EA900624C45 /* hb-ot-hmtx-table.hh */; };
+		A8D7C0B71A75BE9900002385 /* hb-set-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960B2188C2EA900624C45 /* hb-set-private.hh */; };
+		A8D7C0B81A75BE9900002385 /* hb-ot-hhea-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608B188C2EA900624C45 /* hb-ot-hhea-table.hh */; };
+		A8D7C0B91A75BE9900002385 /* hb.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496070188C2EA900624C45 /* hb.h */; };
+		A8D7C0BA1A75BE9900002385 /* hb-open-file-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496088188C2EA900624C45 /* hb-open-file-private.hh */; };
+		A8D7C0BB1A75BE9900002385 /* hb-open-type-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496089188C2EA900624C45 /* hb-open-type-private.hh */; };
+		A8D7C0BC1A75BE9900002385 /* hb-ot-shape-fallback-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A8188C2EA900624C45 /* hb-ot-shape-fallback-private.hh */; };
+		A8D7C0BD1A75BE9900002385 /* hb-ot-shape-complex-sea-machine.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A5188C2EA900624C45 /* hb-ot-shape-complex-sea-machine.hh */; };
+		A8D7C0BE1A75BE9900002385 /* hb-shape-plan-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496061188C2EA900624C45 /* hb-shape-plan-private.hh */; };
+		A8D7C0BF1A75BE9900002385 /* hb-font.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496084188C2EA900624C45 /* hb-font.h */; };
+		A8D7C0C01A75BE9900002385 /* hb-font-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496082188C2EA900624C45 /* hb-font-private.hh */; };
+		A8D7C0C11A75BE9900002385 /* hb-ot-shape-complex-arabic-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609B188C2EA900624C45 /* hb-ot-shape-complex-arabic-table.hh */; };
+		A8D7C0C21A75BE9900002385 /* hb-ot-layout-common-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608D188C2EA900624C45 /* hb-ot-layout-common-private.hh */; };
+		A8D7C0C31A75BE9900002385 /* hb-set.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496060188C2EA900624C45 /* hb-set.h */; };
+		A8D7C0C41A75BE9900002385 /* hb-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960B1188C2EA900624C45 /* hb-private.hh */; };
+		A8D7C0C51A75BE9900002385 /* hb-ot-layout-gpos-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608F188C2EA900624C45 /* hb-ot-layout-gpos-table.hh */; };
+		A8D7C0C61A75BE9900002385 /* hb-unicode.h in Headers */ = {isa = PBXBuildFile; fileRef = A849606D188C2EA900624C45 /* hb-unicode.h */; };
+		A8D7C0C71A75BE9900002385 /* hb-ot-shape-complex-indic-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609F188C2EA900624C45 /* hb-ot-shape-complex-indic-private.hh */; };
+		A8D7C0C81A75BE9900002385 /* hb-cache-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849607A188C2EA900624C45 /* hb-cache-private.hh */; };
+		A8D7C0C91A75BE9900002385 /* hb-unicode-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849606B188C2EA900624C45 /* hb-unicode-private.hh */; };
+		A8D7C0CA1A75BE9900002385 /* ucdn.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496072188C2EA900624C45 /* ucdn.h */; };
+		A8D7C0CB1A75BE9900002385 /* hb-atomic-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496074188C2EA900624C45 /* hb-atomic-private.hh */; };
+		A8D7C0CC1A75BE9900002385 /* hb-ot-shape-complex-indic-machine.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609E188C2EA900624C45 /* hb-ot-shape-complex-indic-machine.hh */; };
+		A8D7C0CD1A75BE9900002385 /* hb-buffer-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496077188C2EA900624C45 /* hb-buffer-private.hh */; };
+		A8D7C0CE1A75BE9900002385 /* hb-ot-map-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496096188C2EA900624C45 /* hb-ot-map-private.hh */; };
+		A8D7C0CF1A75BE9900002385 /* hb-buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496079188C2EA900624C45 /* hb-buffer.h */; };
+		A8D7C0D01A75BE9900002385 /* hb-version.h in Headers */ = {isa = PBXBuildFile; fileRef = A849606F188C2EA900624C45 /* hb-version.h */; };
+		A8D7C0D11A75BE9900002385 /* hb-ot-shape-complex-myanmar-machine.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A2188C2EA900624C45 /* hb-ot-shape-complex-myanmar-machine.hh */; };
+		A8D7C0D21A75BE9900002385 /* hb-blob.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496076188C2EA900624C45 /* hb-blob.h */; };
+		A8D7C0D31A75BE9900002385 /* hb-ot-layout-gdef-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608E188C2EA900624C45 /* hb-ot-layout-gdef-table.hh */; };
+		A8D7C0D41A75BE9900002385 /* hb-face-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849607E188C2EA900624C45 /* hb-face-private.hh */; };
+		A8D7C0D51A75BE9900002385 /* hb-ot-layout-jstf-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496092188C2EA900624C45 /* hb-ot-layout-jstf-table.hh */; };
+		A8D7C0D61A75BE9900002385 /* hb-ot-head-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608A188C2EA900624C45 /* hb-ot-head-table.hh */; };
+		A8D7C0D71A75BE9900002385 /* hb-ot-maxp-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496098188C2EA900624C45 /* hb-ot-maxp-table.hh */; };
+		A8D7C0D81A75BE9900002385 /* hb-ot-shape-complex-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A4188C2EA900624C45 /* hb-ot-shape-complex-private.hh */; };
+		A8D7C0D91A75BE9900002385 /* hb-ot-shape-fallback.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A9188C2EA900624C45 /* hb-ot-shape-fallback.cc */; };
+		A8D7C0DA1A75BE9900002385 /* hb-ot-shape-complex-thai.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A7188C2EA900624C45 /* hb-ot-shape-complex-thai.cc */; };
+		A8D7C0DB1A75BE9900002385 /* hb-ot-shape-complex-arabic.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849609C188C2EA900624C45 /* hb-ot-shape-complex-arabic.cc */; };
+		A8D7C0DC1A75BE9900002385 /* hb-font.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496083188C2EA900624C45 /* hb-font.cc */; };
+		A8D7C0DD1A75BE9900002385 /* hb-face.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849607F188C2EA900624C45 /* hb-face.cc */; };
+		A8D7C0DE1A75BE9900002385 /* hb-set.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605F188C2EA900624C45 /* hb-set.cc */; };
+		A8D7C0DF1A75BE9900002385 /* hb-ot-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960AD188C2EA900624C45 /* hb-ot-shape.cc */; };
+		A8D7C0E01A75BE9900002385 /* ucdn.c in Sources */ = {isa = PBXBuildFile; fileRef = A8496071188C2EA900624C45 /* ucdn.c */; };
+		A8D7C0E11A75BE9900002385 /* hb-fallback-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496081188C2EA900624C45 /* hb-fallback-shape.cc */; };
+		A8D7C0E21A75BE9900002385 /* hb-ot-map.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496097188C2EA900624C45 /* hb-ot-map.cc */; };
+		A8D7C0E31A75BE9900002385 /* hb-ucdn.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849606A188C2EA900624C45 /* hb-ucdn.cc */; };
+		A8D7C0E41A75BE9900002385 /* hb-ft.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605E188C2EA900624C45 /* hb-ft.cc */; };
+		A8D7C0E51A75BE9900002385 /* hb-ot-shape-complex-sea.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A6188C2EA900624C45 /* hb-ot-shape-complex-sea.cc */; };
+		A8D7C0E61A75BE9900002385 /* hb-shape-plan.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496062188C2EA900624C45 /* hb-shape-plan.cc */; };
+		A8D7C0E71A75BE9900002385 /* hb-common.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849607B188C2EA900624C45 /* hb-common.cc */; };
+		A8D7C0E81A75BE9900002385 /* hb-ot-shape-normalize.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960AB188C2EA900624C45 /* hb-ot-shape-normalize.cc */; };
+		A8D7C0E91A75BE9900002385 /* hb-blob.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496075188C2EA900624C45 /* hb-blob.cc */; };
+		A8D7C0EA1A75BE9900002385 /* hb-shaper.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496069188C2EA900624C45 /* hb-shaper.cc */; };
+		A8D7C0EB1A75BE9900002385 /* hb-ot-shape-complex-indic.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A1188C2EA900624C45 /* hb-ot-shape-complex-indic.cc */; };
+		A8D7C0EC1A75BE9900002385 /* hb-buffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496078188C2EA900624C45 /* hb-buffer.cc */; };
+		A8D7C0ED1A75BE9900002385 /* hb-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496064188C2EA900624C45 /* hb-shape.cc */; };
+		A8D7C0EE1A75BE9900002385 /* hb-ot-shape-complex-indic-table.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A0188C2EA900624C45 /* hb-ot-shape-complex-indic-table.cc */; };
+		A8D7C0EF1A75BE9900002385 /* hb-unicode.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849606C188C2EA900624C45 /* hb-unicode.cc */; };
+		A8D7C0F01A75BE9900002385 /* hb-ot-tag.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960AE188C2EA900624C45 /* hb-ot-tag.cc */; };
+		A8D7C0F11A75BE9900002385 /* hb-ot-layout.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496094188C2EA900624C45 /* hb-ot-layout.cc */; };
+		A8D7C0F21A75BE9900002385 /* hb-ot-shape-complex-myanmar.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A3188C2EA900624C45 /* hb-ot-shape-complex-myanmar.cc */; };
+		A8D7C0F31A75BE9900002385 /* hb-ot-shape-complex-default.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849609D188C2EA900624C45 /* hb-ot-shape-complex-default.cc */; };
+		A8D7C0F41A75BE9900002385 /* unicodedata_db.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496073188C2EA900624C45 /* unicodedata_db.h */; };
+		A8D7C0F51A75BE9900002385 /* hb-shaper-impl-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496066188C2EA900624C45 /* hb-shaper-impl-private.hh */; };
+		A8D7C0F61A75BE9900002385 /* hb-shape.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496065188C2EA900624C45 /* hb-shape.h */; };
+		A8D7C0F71A75BE9900002385 /* hb-ot.h in Headers */ = {isa = PBXBuildFile; fileRef = A84960B0188C2EA900624C45 /* hb-ot.h */; };
+		A8D7C0F81A75BE9900002385 /* hb-deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = A849607D188C2EA900624C45 /* hb-deprecated.h */; };
+		A8D7C0F91A75BE9900002385 /* hb-common.h in Headers */ = {isa = PBXBuildFile; fileRef = A849607C188C2EA900624C45 /* hb-common.h */; };
+		A8D7C0FA1A75BE9900002385 /* hb-ot-layout.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496095188C2EA900624C45 /* hb-ot-layout.h */; };
+		A8D7C0FB1A75BE9900002385 /* hb-ot-shape-normalize-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960AA188C2EA900624C45 /* hb-ot-shape-normalize-private.hh */; };
+		A8D7C0FC1A75BE9900002385 /* hb-face.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496080188C2EA900624C45 /* hb-face.h */; };
+		A8D7C0FD1A75BE9900002385 /* hb-ot-shape-complex-arabic-fallback.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609A188C2EA900624C45 /* hb-ot-shape-complex-arabic-fallback.hh */; };
+		A8D7C0FE1A75BE9900002385 /* hb-ot-name-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496099188C2EA900624C45 /* hb-ot-name-table.hh */; };
+		A8D7C0FF1A75BE9900002385 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A8EE4791188BF7E4001796CD /* Prefix.pch */; };
+		A8D7C1001A75BE9900002385 /* hb-shape-plan.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496063188C2EA900624C45 /* hb-shape-plan.h */; };
+		A8D7C1011A75BE9900002385 /* hb-ot-tag.h in Headers */ = {isa = PBXBuildFile; fileRef = A84960AF188C2EA900624C45 /* hb-ot-tag.h */; };
+		A8D7C1021A75BE9900002385 /* hb-ot-layout-gsubgpos-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496091188C2EA900624C45 /* hb-ot-layout-gsubgpos-private.hh */; };
+		A8D7C1031A75BE9900002385 /* hb-object-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496087188C2EA900624C45 /* hb-object-private.hh */; };
+		A8D7C1041A75BE9900002385 /* hb-utf-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849606E188C2EA900624C45 /* hb-utf-private.hh */; };
+		A8D7C1051A75BE9900002385 /* hb-ft.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496085188C2EA900624C45 /* hb-ft.h */; };
+		A8D7C1061A75BE9900002385 /* hb-ot-shape-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960AC188C2EA900624C45 /* hb-ot-shape-private.hh */; };
+		A8D7C1071A75BE9900002385 /* hb-shaper-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496068188C2EA900624C45 /* hb-shaper-private.hh */; };
+		A8D7C1081A75BE9900002385 /* hb-ot-layout-gsub-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496090188C2EA900624C45 /* hb-ot-layout-gsub-table.hh */; };
+		A8D7C1091A75BE9900002385 /* hb-ot-layout-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496093188C2EA900624C45 /* hb-ot-layout-private.hh */; };
+		A8D7C10A1A75BE9900002385 /* hb-mutex-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496086188C2EA900624C45 /* hb-mutex-private.hh */; };
+		A8D7C10B1A75BE9900002385 /* hb-shaper-list.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496067188C2EA900624C45 /* hb-shaper-list.hh */; };
+		A8D7C10C1A75BE9900002385 /* hb-ot-hmtx-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608C188C2EA900624C45 /* hb-ot-hmtx-table.hh */; };
+		A8D7C10D1A75BE9900002385 /* hb-set-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960B2188C2EA900624C45 /* hb-set-private.hh */; };
+		A8D7C10E1A75BE9900002385 /* hb-ot-hhea-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608B188C2EA900624C45 /* hb-ot-hhea-table.hh */; };
+		A8D7C10F1A75BE9900002385 /* hb.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496070188C2EA900624C45 /* hb.h */; };
+		A8D7C1101A75BE9900002385 /* hb-open-file-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496088188C2EA900624C45 /* hb-open-file-private.hh */; };
+		A8D7C1111A75BE9900002385 /* hb-open-type-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496089188C2EA900624C45 /* hb-open-type-private.hh */; };
+		A8D7C1121A75BE9900002385 /* hb-ot-shape-fallback-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A8188C2EA900624C45 /* hb-ot-shape-fallback-private.hh */; };
+		A8D7C1131A75BE9900002385 /* hb-ot-shape-complex-sea-machine.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A5188C2EA900624C45 /* hb-ot-shape-complex-sea-machine.hh */; };
+		A8D7C1141A75BE9900002385 /* hb-shape-plan-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496061188C2EA900624C45 /* hb-shape-plan-private.hh */; };
+		A8D7C1151A75BE9900002385 /* hb-font.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496084188C2EA900624C45 /* hb-font.h */; };
+		A8D7C1161A75BE9900002385 /* hb-font-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496082188C2EA900624C45 /* hb-font-private.hh */; };
+		A8D7C1171A75BE9900002385 /* hb-ot-shape-complex-arabic-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609B188C2EA900624C45 /* hb-ot-shape-complex-arabic-table.hh */; };
+		A8D7C1181A75BE9900002385 /* hb-ot-layout-common-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608D188C2EA900624C45 /* hb-ot-layout-common-private.hh */; };
+		A8D7C1191A75BE9900002385 /* hb-set.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496060188C2EA900624C45 /* hb-set.h */; };
+		A8D7C11A1A75BE9900002385 /* hb-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960B1188C2EA900624C45 /* hb-private.hh */; };
+		A8D7C11B1A75BE9900002385 /* hb-ot-layout-gpos-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608F188C2EA900624C45 /* hb-ot-layout-gpos-table.hh */; };
+		A8D7C11C1A75BE9900002385 /* hb-unicode.h in Headers */ = {isa = PBXBuildFile; fileRef = A849606D188C2EA900624C45 /* hb-unicode.h */; };
+		A8D7C11D1A75BE9900002385 /* hb-ot-shape-complex-indic-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609F188C2EA900624C45 /* hb-ot-shape-complex-indic-private.hh */; };
+		A8D7C11E1A75BE9900002385 /* hb-cache-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849607A188C2EA900624C45 /* hb-cache-private.hh */; };
+		A8D7C11F1A75BE9900002385 /* hb-unicode-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849606B188C2EA900624C45 /* hb-unicode-private.hh */; };
+		A8D7C1201A75BE9900002385 /* ucdn.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496072188C2EA900624C45 /* ucdn.h */; };
+		A8D7C1211A75BE9900002385 /* hb-atomic-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496074188C2EA900624C45 /* hb-atomic-private.hh */; };
+		A8D7C1221A75BE9900002385 /* hb-ot-shape-complex-indic-machine.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849609E188C2EA900624C45 /* hb-ot-shape-complex-indic-machine.hh */; };
+		A8D7C1231A75BE9900002385 /* hb-buffer-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496077188C2EA900624C45 /* hb-buffer-private.hh */; };
+		A8D7C1241A75BE9900002385 /* hb-ot-map-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496096188C2EA900624C45 /* hb-ot-map-private.hh */; };
+		A8D7C1251A75BE9900002385 /* hb-buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496079188C2EA900624C45 /* hb-buffer.h */; };
+		A8D7C1261A75BE9900002385 /* hb-version.h in Headers */ = {isa = PBXBuildFile; fileRef = A849606F188C2EA900624C45 /* hb-version.h */; };
+		A8D7C1271A75BE9900002385 /* hb-ot-shape-complex-myanmar-machine.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A2188C2EA900624C45 /* hb-ot-shape-complex-myanmar-machine.hh */; };
+		A8D7C1281A75BE9900002385 /* hb-blob.h in Headers */ = {isa = PBXBuildFile; fileRef = A8496076188C2EA900624C45 /* hb-blob.h */; };
+		A8D7C1291A75BE9900002385 /* hb-ot-layout-gdef-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608E188C2EA900624C45 /* hb-ot-layout-gdef-table.hh */; };
+		A8D7C12A1A75BE9900002385 /* hb-face-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849607E188C2EA900624C45 /* hb-face-private.hh */; };
+		A8D7C12B1A75BE9900002385 /* hb-ot-layout-jstf-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496092188C2EA900624C45 /* hb-ot-layout-jstf-table.hh */; };
+		A8D7C12C1A75BE9900002385 /* hb-ot-head-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A849608A188C2EA900624C45 /* hb-ot-head-table.hh */; };
+		A8D7C12D1A75BE9900002385 /* hb-ot-maxp-table.hh in Headers */ = {isa = PBXBuildFile; fileRef = A8496098188C2EA900624C45 /* hb-ot-maxp-table.hh */; };
+		A8D7C12E1A75BE9900002385 /* hb-ot-shape-complex-private.hh in Headers */ = {isa = PBXBuildFile; fileRef = A84960A4188C2EA900624C45 /* hb-ot-shape-complex-private.hh */; };
+		A8D7C12F1A75BE9900002385 /* hb-ot-shape-fallback.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A9188C2EA900624C45 /* hb-ot-shape-fallback.cc */; };
+		A8D7C1301A75BE9900002385 /* hb-ot-shape-complex-thai.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A7188C2EA900624C45 /* hb-ot-shape-complex-thai.cc */; };
+		A8D7C1311A75BE9900002385 /* hb-ot-shape-complex-arabic.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849609C188C2EA900624C45 /* hb-ot-shape-complex-arabic.cc */; };
+		A8D7C1321A75BE9900002385 /* hb-font.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496083188C2EA900624C45 /* hb-font.cc */; };
+		A8D7C1331A75BE9900002385 /* hb-face.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849607F188C2EA900624C45 /* hb-face.cc */; };
+		A8D7C1341A75BE9900002385 /* hb-set.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605F188C2EA900624C45 /* hb-set.cc */; };
+		A8D7C1351A75BE9900002385 /* hb-ot-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960AD188C2EA900624C45 /* hb-ot-shape.cc */; };
+		A8D7C1361A75BE9900002385 /* ucdn.c in Sources */ = {isa = PBXBuildFile; fileRef = A8496071188C2EA900624C45 /* ucdn.c */; };
+		A8D7C1371A75BE9900002385 /* hb-fallback-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496081188C2EA900624C45 /* hb-fallback-shape.cc */; };
+		A8D7C1381A75BE9900002385 /* hb-ot-map.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496097188C2EA900624C45 /* hb-ot-map.cc */; };
+		A8D7C1391A75BE9900002385 /* hb-ucdn.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849606A188C2EA900624C45 /* hb-ucdn.cc */; };
+		A8D7C13A1A75BE9900002385 /* hb-ft.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849605E188C2EA900624C45 /* hb-ft.cc */; };
+		A8D7C13B1A75BE9900002385 /* hb-ot-shape-complex-sea.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A6188C2EA900624C45 /* hb-ot-shape-complex-sea.cc */; };
+		A8D7C13C1A75BE9900002385 /* hb-shape-plan.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496062188C2EA900624C45 /* hb-shape-plan.cc */; };
+		A8D7C13D1A75BE9900002385 /* hb-common.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849607B188C2EA900624C45 /* hb-common.cc */; };
+		A8D7C13E1A75BE9900002385 /* hb-ot-shape-normalize.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960AB188C2EA900624C45 /* hb-ot-shape-normalize.cc */; };
+		A8D7C13F1A75BE9900002385 /* hb-blob.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496075188C2EA900624C45 /* hb-blob.cc */; };
+		A8D7C1401A75BE9900002385 /* hb-shaper.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496069188C2EA900624C45 /* hb-shaper.cc */; };
+		A8D7C1411A75BE9900002385 /* hb-ot-shape-complex-indic.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A1188C2EA900624C45 /* hb-ot-shape-complex-indic.cc */; };
+		A8D7C1421A75BE9900002385 /* hb-buffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496078188C2EA900624C45 /* hb-buffer.cc */; };
+		A8D7C1431A75BE9900002385 /* hb-shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496064188C2EA900624C45 /* hb-shape.cc */; };
+		A8D7C1441A75BE9900002385 /* hb-ot-shape-complex-indic-table.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A0188C2EA900624C45 /* hb-ot-shape-complex-indic-table.cc */; };
+		A8D7C1451A75BE9900002385 /* hb-unicode.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849606C188C2EA900624C45 /* hb-unicode.cc */; };
+		A8D7C1461A75BE9900002385 /* hb-ot-tag.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960AE188C2EA900624C45 /* hb-ot-tag.cc */; };
+		A8D7C1471A75BE9900002385 /* hb-ot-layout.cc in Sources */ = {isa = PBXBuildFile; fileRef = A8496094188C2EA900624C45 /* hb-ot-layout.cc */; };
+		A8D7C1481A75BE9900002385 /* hb-ot-shape-complex-myanmar.cc in Sources */ = {isa = PBXBuildFile; fileRef = A84960A3188C2EA900624C45 /* hb-ot-shape-complex-myanmar.cc */; };
+		A8D7C1491A75BE9900002385 /* hb-ot-shape-complex-default.cc in Sources */ = {isa = PBXBuildFile; fileRef = A849609D188C2EA900624C45 /* hb-ot-shape-complex-default.cc */; };
 		A8EE4792188BF7E4001796CD /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A8EE4791188BF7E4001796CD /* Prefix.pch */; };
 /* End PBXBuildFile section */
 
@@ -234,7 +402,7 @@
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
 			indentWidth = 4;
-			name = "libhb";
+			name = libhb;
 			sourceTree = "<group>";
 			tabWidth = 4;
 			usesTabs = 1;
@@ -338,65 +506,65 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84960C8188C2EA900624C45 /* unicodedata_db.h in Headers */,
-				A84960BB188C2EA900624C45 /* hb-shaper-impl-private.hh in Headers */,
-				A84960BA188C2EA900624C45 /* hb-shape.h in Headers */,
-				A8496105188C2EA900624C45 /* hb-ot.h in Headers */,
-				A84960D2188C2EA900624C45 /* hb-deprecated.h in Headers */,
-				A84960D1188C2EA900624C45 /* hb-common.h in Headers */,
-				A84960EA188C2EA900624C45 /* hb-ot-layout.h in Headers */,
-				A84960FF188C2EA900624C45 /* hb-ot-shape-normalize-private.hh in Headers */,
-				A84960D5188C2EA900624C45 /* hb-face.h in Headers */,
-				A84960EF188C2EA900624C45 /* hb-ot-shape-complex-arabic-fallback.hh in Headers */,
-				A84960EE188C2EA900624C45 /* hb-ot-name-table.hh in Headers */,
-				A8EE4792188BF7E4001796CD /* Prefix.pch in Headers */,
-				A84960B8188C2EA900624C45 /* hb-shape-plan.h in Headers */,
-				A8496104188C2EA900624C45 /* hb-ot-tag.h in Headers */,
-				A84960E6188C2EA900624C45 /* hb-ot-layout-gsubgpos-private.hh in Headers */,
-				A84960DC188C2EA900624C45 /* hb-object-private.hh in Headers */,
-				A84960C3188C2EA900624C45 /* hb-utf-private.hh in Headers */,
-				A84960DA188C2EA900624C45 /* hb-ft.h in Headers */,
-				A8496101188C2EA900624C45 /* hb-ot-shape-private.hh in Headers */,
-				A84960BD188C2EA900624C45 /* hb-shaper-private.hh in Headers */,
-				A84960E5188C2EA900624C45 /* hb-ot-layout-gsub-table.hh in Headers */,
-				A84960E8188C2EA900624C45 /* hb-ot-layout-private.hh in Headers */,
-				A84960DB188C2EA900624C45 /* hb-mutex-private.hh in Headers */,
-				A84960BC188C2EA900624C45 /* hb-shaper-list.hh in Headers */,
-				A84960E1188C2EA900624C45 /* hb-ot-hmtx-table.hh in Headers */,
-				A8496107188C2EA900624C45 /* hb-set-private.hh in Headers */,
-				A84960E0188C2EA900624C45 /* hb-ot-hhea-table.hh in Headers */,
-				A84960C5188C2EA900624C45 /* hb.h in Headers */,
-				A84960DD188C2EA900624C45 /* hb-open-file-private.hh in Headers */,
-				A84960DE188C2EA900624C45 /* hb-open-type-private.hh in Headers */,
-				A84960FD188C2EA900624C45 /* hb-ot-shape-fallback-private.hh in Headers */,
-				A84960FA188C2EA900624C45 /* hb-ot-shape-complex-sea-machine.hh in Headers */,
-				A84960B6188C2EA900624C45 /* hb-shape-plan-private.hh in Headers */,
-				A84960D9188C2EA900624C45 /* hb-font.h in Headers */,
-				A84960D7188C2EA900624C45 /* hb-font-private.hh in Headers */,
-				A84960F0188C2EA900624C45 /* hb-ot-shape-complex-arabic-table.hh in Headers */,
-				A84960E2188C2EA900624C45 /* hb-ot-layout-common-private.hh in Headers */,
-				A84960B5188C2EA900624C45 /* hb-set.h in Headers */,
-				A8496106188C2EA900624C45 /* hb-private.hh in Headers */,
-				A84960E4188C2EA900624C45 /* hb-ot-layout-gpos-table.hh in Headers */,
-				A84960C2188C2EA900624C45 /* hb-unicode.h in Headers */,
-				A84960F4188C2EA900624C45 /* hb-ot-shape-complex-indic-private.hh in Headers */,
-				A84960CF188C2EA900624C45 /* hb-cache-private.hh in Headers */,
-				A84960C0188C2EA900624C45 /* hb-unicode-private.hh in Headers */,
-				A84960C7188C2EA900624C45 /* ucdn.h in Headers */,
-				A84960C9188C2EA900624C45 /* hb-atomic-private.hh in Headers */,
-				A84960F3188C2EA900624C45 /* hb-ot-shape-complex-indic-machine.hh in Headers */,
-				A84960CC188C2EA900624C45 /* hb-buffer-private.hh in Headers */,
-				A84960EB188C2EA900624C45 /* hb-ot-map-private.hh in Headers */,
-				A84960CE188C2EA900624C45 /* hb-buffer.h in Headers */,
-				A84960C4188C2EA900624C45 /* hb-version.h in Headers */,
-				A84960F7188C2EA900624C45 /* hb-ot-shape-complex-myanmar-machine.hh in Headers */,
-				A84960CB188C2EA900624C45 /* hb-blob.h in Headers */,
-				A84960E3188C2EA900624C45 /* hb-ot-layout-gdef-table.hh in Headers */,
-				A84960D3188C2EA900624C45 /* hb-face-private.hh in Headers */,
-				A84960E7188C2EA900624C45 /* hb-ot-layout-jstf-table.hh in Headers */,
-				A84960DF188C2EA900624C45 /* hb-ot-head-table.hh in Headers */,
-				A84960ED188C2EA900624C45 /* hb-ot-maxp-table.hh in Headers */,
-				A84960F9188C2EA900624C45 /* hb-ot-shape-complex-private.hh in Headers */,
+				A8D7C09E1A75BE9900002385 /* unicodedata_db.h in Headers */,
+				A8D7C09F1A75BE9900002385 /* hb-shaper-impl-private.hh in Headers */,
+				A8D7C0A01A75BE9900002385 /* hb-shape.h in Headers */,
+				A8D7C0A11A75BE9900002385 /* hb-ot.h in Headers */,
+				A8D7C0A21A75BE9900002385 /* hb-deprecated.h in Headers */,
+				A8D7C0A31A75BE9900002385 /* hb-common.h in Headers */,
+				A8D7C0A41A75BE9900002385 /* hb-ot-layout.h in Headers */,
+				A8D7C0A51A75BE9900002385 /* hb-ot-shape-normalize-private.hh in Headers */,
+				A8D7C0A61A75BE9900002385 /* hb-face.h in Headers */,
+				A8D7C0A71A75BE9900002385 /* hb-ot-shape-complex-arabic-fallback.hh in Headers */,
+				A8D7C0A81A75BE9900002385 /* hb-ot-name-table.hh in Headers */,
+				A8D7C0A91A75BE9900002385 /* Prefix.pch in Headers */,
+				A8D7C0AA1A75BE9900002385 /* hb-shape-plan.h in Headers */,
+				A8D7C0AB1A75BE9900002385 /* hb-ot-tag.h in Headers */,
+				A8D7C0AC1A75BE9900002385 /* hb-ot-layout-gsubgpos-private.hh in Headers */,
+				A8D7C0AD1A75BE9900002385 /* hb-object-private.hh in Headers */,
+				A8D7C0AE1A75BE9900002385 /* hb-utf-private.hh in Headers */,
+				A8D7C0AF1A75BE9900002385 /* hb-ft.h in Headers */,
+				A8D7C0B01A75BE9900002385 /* hb-ot-shape-private.hh in Headers */,
+				A8D7C0B11A75BE9900002385 /* hb-shaper-private.hh in Headers */,
+				A8D7C0B21A75BE9900002385 /* hb-ot-layout-gsub-table.hh in Headers */,
+				A8D7C0B31A75BE9900002385 /* hb-ot-layout-private.hh in Headers */,
+				A8D7C0B41A75BE9900002385 /* hb-mutex-private.hh in Headers */,
+				A8D7C0B51A75BE9900002385 /* hb-shaper-list.hh in Headers */,
+				A8D7C0B61A75BE9900002385 /* hb-ot-hmtx-table.hh in Headers */,
+				A8D7C0B71A75BE9900002385 /* hb-set-private.hh in Headers */,
+				A8D7C0B81A75BE9900002385 /* hb-ot-hhea-table.hh in Headers */,
+				A8D7C0B91A75BE9900002385 /* hb.h in Headers */,
+				A8D7C0BA1A75BE9900002385 /* hb-open-file-private.hh in Headers */,
+				A8D7C0BB1A75BE9900002385 /* hb-open-type-private.hh in Headers */,
+				A8D7C0BC1A75BE9900002385 /* hb-ot-shape-fallback-private.hh in Headers */,
+				A8D7C0BD1A75BE9900002385 /* hb-ot-shape-complex-sea-machine.hh in Headers */,
+				A8D7C0BE1A75BE9900002385 /* hb-shape-plan-private.hh in Headers */,
+				A8D7C0BF1A75BE9900002385 /* hb-font.h in Headers */,
+				A8D7C0C01A75BE9900002385 /* hb-font-private.hh in Headers */,
+				A8D7C0C11A75BE9900002385 /* hb-ot-shape-complex-arabic-table.hh in Headers */,
+				A8D7C0C21A75BE9900002385 /* hb-ot-layout-common-private.hh in Headers */,
+				A8D7C0C31A75BE9900002385 /* hb-set.h in Headers */,
+				A8D7C0C41A75BE9900002385 /* hb-private.hh in Headers */,
+				A8D7C0C51A75BE9900002385 /* hb-ot-layout-gpos-table.hh in Headers */,
+				A8D7C0C61A75BE9900002385 /* hb-unicode.h in Headers */,
+				A8D7C0C71A75BE9900002385 /* hb-ot-shape-complex-indic-private.hh in Headers */,
+				A8D7C0C81A75BE9900002385 /* hb-cache-private.hh in Headers */,
+				A8D7C0C91A75BE9900002385 /* hb-unicode-private.hh in Headers */,
+				A8D7C0CA1A75BE9900002385 /* ucdn.h in Headers */,
+				A8D7C0CB1A75BE9900002385 /* hb-atomic-private.hh in Headers */,
+				A8D7C0CC1A75BE9900002385 /* hb-ot-shape-complex-indic-machine.hh in Headers */,
+				A8D7C0CD1A75BE9900002385 /* hb-buffer-private.hh in Headers */,
+				A8D7C0CE1A75BE9900002385 /* hb-ot-map-private.hh in Headers */,
+				A8D7C0CF1A75BE9900002385 /* hb-buffer.h in Headers */,
+				A8D7C0D01A75BE9900002385 /* hb-version.h in Headers */,
+				A8D7C0D11A75BE9900002385 /* hb-ot-shape-complex-myanmar-machine.hh in Headers */,
+				A8D7C0D21A75BE9900002385 /* hb-blob.h in Headers */,
+				A8D7C0D31A75BE9900002385 /* hb-ot-layout-gdef-table.hh in Headers */,
+				A8D7C0D41A75BE9900002385 /* hb-face-private.hh in Headers */,
+				A8D7C0D51A75BE9900002385 /* hb-ot-layout-jstf-table.hh in Headers */,
+				A8D7C0D61A75BE9900002385 /* hb-ot-head-table.hh in Headers */,
+				A8D7C0D71A75BE9900002385 /* hb-ot-maxp-table.hh in Headers */,
+				A8D7C0D81A75BE9900002385 /* hb-ot-shape-complex-private.hh in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,65 +572,65 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84960C8188C2EA900624C45 /* unicodedata_db.h in Headers */,
-				A84960BB188C2EA900624C45 /* hb-shaper-impl-private.hh in Headers */,
-				A84960BA188C2EA900624C45 /* hb-shape.h in Headers */,
-				A8496105188C2EA900624C45 /* hb-ot.h in Headers */,
-				A84960D2188C2EA900624C45 /* hb-deprecated.h in Headers */,
-				A84960D1188C2EA900624C45 /* hb-common.h in Headers */,
-				A84960EA188C2EA900624C45 /* hb-ot-layout.h in Headers */,
-				A84960FF188C2EA900624C45 /* hb-ot-shape-normalize-private.hh in Headers */,
-				A84960D5188C2EA900624C45 /* hb-face.h in Headers */,
-				A84960EF188C2EA900624C45 /* hb-ot-shape-complex-arabic-fallback.hh in Headers */,
-				A84960EE188C2EA900624C45 /* hb-ot-name-table.hh in Headers */,
-				A8EE4792188BF7E4001796CD /* Prefix.pch in Headers */,
-				A84960B8188C2EA900624C45 /* hb-shape-plan.h in Headers */,
-				A8496104188C2EA900624C45 /* hb-ot-tag.h in Headers */,
-				A84960E6188C2EA900624C45 /* hb-ot-layout-gsubgpos-private.hh in Headers */,
-				A84960DC188C2EA900624C45 /* hb-object-private.hh in Headers */,
-				A84960C3188C2EA900624C45 /* hb-utf-private.hh in Headers */,
-				A84960DA188C2EA900624C45 /* hb-ft.h in Headers */,
-				A8496101188C2EA900624C45 /* hb-ot-shape-private.hh in Headers */,
-				A84960BD188C2EA900624C45 /* hb-shaper-private.hh in Headers */,
-				A84960E5188C2EA900624C45 /* hb-ot-layout-gsub-table.hh in Headers */,
-				A84960E8188C2EA900624C45 /* hb-ot-layout-private.hh in Headers */,
-				A84960DB188C2EA900624C45 /* hb-mutex-private.hh in Headers */,
-				A84960BC188C2EA900624C45 /* hb-shaper-list.hh in Headers */,
-				A84960E1188C2EA900624C45 /* hb-ot-hmtx-table.hh in Headers */,
-				A8496107188C2EA900624C45 /* hb-set-private.hh in Headers */,
-				A84960E0188C2EA900624C45 /* hb-ot-hhea-table.hh in Headers */,
-				A84960C5188C2EA900624C45 /* hb.h in Headers */,
-				A84960DD188C2EA900624C45 /* hb-open-file-private.hh in Headers */,
-				A84960DE188C2EA900624C45 /* hb-open-type-private.hh in Headers */,
-				A84960FD188C2EA900624C45 /* hb-ot-shape-fallback-private.hh in Headers */,
-				A84960FA188C2EA900624C45 /* hb-ot-shape-complex-sea-machine.hh in Headers */,
-				A84960B6188C2EA900624C45 /* hb-shape-plan-private.hh in Headers */,
-				A84960D9188C2EA900624C45 /* hb-font.h in Headers */,
-				A84960D7188C2EA900624C45 /* hb-font-private.hh in Headers */,
-				A84960F0188C2EA900624C45 /* hb-ot-shape-complex-arabic-table.hh in Headers */,
-				A84960E2188C2EA900624C45 /* hb-ot-layout-common-private.hh in Headers */,
-				A84960B5188C2EA900624C45 /* hb-set.h in Headers */,
-				A8496106188C2EA900624C45 /* hb-private.hh in Headers */,
-				A84960E4188C2EA900624C45 /* hb-ot-layout-gpos-table.hh in Headers */,
-				A84960C2188C2EA900624C45 /* hb-unicode.h in Headers */,
-				A84960F4188C2EA900624C45 /* hb-ot-shape-complex-indic-private.hh in Headers */,
-				A84960CF188C2EA900624C45 /* hb-cache-private.hh in Headers */,
-				A84960C0188C2EA900624C45 /* hb-unicode-private.hh in Headers */,
-				A84960C7188C2EA900624C45 /* ucdn.h in Headers */,
-				A84960C9188C2EA900624C45 /* hb-atomic-private.hh in Headers */,
-				A84960F3188C2EA900624C45 /* hb-ot-shape-complex-indic-machine.hh in Headers */,
-				A84960CC188C2EA900624C45 /* hb-buffer-private.hh in Headers */,
-				A84960EB188C2EA900624C45 /* hb-ot-map-private.hh in Headers */,
-				A84960CE188C2EA900624C45 /* hb-buffer.h in Headers */,
-				A84960C4188C2EA900624C45 /* hb-version.h in Headers */,
-				A84960F7188C2EA900624C45 /* hb-ot-shape-complex-myanmar-machine.hh in Headers */,
-				A84960CB188C2EA900624C45 /* hb-blob.h in Headers */,
-				A84960E3188C2EA900624C45 /* hb-ot-layout-gdef-table.hh in Headers */,
-				A84960D3188C2EA900624C45 /* hb-face-private.hh in Headers */,
-				A84960E7188C2EA900624C45 /* hb-ot-layout-jstf-table.hh in Headers */,
-				A84960DF188C2EA900624C45 /* hb-ot-head-table.hh in Headers */,
-				A84960ED188C2EA900624C45 /* hb-ot-maxp-table.hh in Headers */,
-				A84960F9188C2EA900624C45 /* hb-ot-shape-complex-private.hh in Headers */,
+				A8D7C0F41A75BE9900002385 /* unicodedata_db.h in Headers */,
+				A8D7C0F51A75BE9900002385 /* hb-shaper-impl-private.hh in Headers */,
+				A8D7C0F61A75BE9900002385 /* hb-shape.h in Headers */,
+				A8D7C0F71A75BE9900002385 /* hb-ot.h in Headers */,
+				A8D7C0F81A75BE9900002385 /* hb-deprecated.h in Headers */,
+				A8D7C0F91A75BE9900002385 /* hb-common.h in Headers */,
+				A8D7C0FA1A75BE9900002385 /* hb-ot-layout.h in Headers */,
+				A8D7C0FB1A75BE9900002385 /* hb-ot-shape-normalize-private.hh in Headers */,
+				A8D7C0FC1A75BE9900002385 /* hb-face.h in Headers */,
+				A8D7C0FD1A75BE9900002385 /* hb-ot-shape-complex-arabic-fallback.hh in Headers */,
+				A8D7C0FE1A75BE9900002385 /* hb-ot-name-table.hh in Headers */,
+				A8D7C0FF1A75BE9900002385 /* Prefix.pch in Headers */,
+				A8D7C1001A75BE9900002385 /* hb-shape-plan.h in Headers */,
+				A8D7C1011A75BE9900002385 /* hb-ot-tag.h in Headers */,
+				A8D7C1021A75BE9900002385 /* hb-ot-layout-gsubgpos-private.hh in Headers */,
+				A8D7C1031A75BE9900002385 /* hb-object-private.hh in Headers */,
+				A8D7C1041A75BE9900002385 /* hb-utf-private.hh in Headers */,
+				A8D7C1051A75BE9900002385 /* hb-ft.h in Headers */,
+				A8D7C1061A75BE9900002385 /* hb-ot-shape-private.hh in Headers */,
+				A8D7C1071A75BE9900002385 /* hb-shaper-private.hh in Headers */,
+				A8D7C1081A75BE9900002385 /* hb-ot-layout-gsub-table.hh in Headers */,
+				A8D7C1091A75BE9900002385 /* hb-ot-layout-private.hh in Headers */,
+				A8D7C10A1A75BE9900002385 /* hb-mutex-private.hh in Headers */,
+				A8D7C10B1A75BE9900002385 /* hb-shaper-list.hh in Headers */,
+				A8D7C10C1A75BE9900002385 /* hb-ot-hmtx-table.hh in Headers */,
+				A8D7C10D1A75BE9900002385 /* hb-set-private.hh in Headers */,
+				A8D7C10E1A75BE9900002385 /* hb-ot-hhea-table.hh in Headers */,
+				A8D7C10F1A75BE9900002385 /* hb.h in Headers */,
+				A8D7C1101A75BE9900002385 /* hb-open-file-private.hh in Headers */,
+				A8D7C1111A75BE9900002385 /* hb-open-type-private.hh in Headers */,
+				A8D7C1121A75BE9900002385 /* hb-ot-shape-fallback-private.hh in Headers */,
+				A8D7C1131A75BE9900002385 /* hb-ot-shape-complex-sea-machine.hh in Headers */,
+				A8D7C1141A75BE9900002385 /* hb-shape-plan-private.hh in Headers */,
+				A8D7C1151A75BE9900002385 /* hb-font.h in Headers */,
+				A8D7C1161A75BE9900002385 /* hb-font-private.hh in Headers */,
+				A8D7C1171A75BE9900002385 /* hb-ot-shape-complex-arabic-table.hh in Headers */,
+				A8D7C1181A75BE9900002385 /* hb-ot-layout-common-private.hh in Headers */,
+				A8D7C1191A75BE9900002385 /* hb-set.h in Headers */,
+				A8D7C11A1A75BE9900002385 /* hb-private.hh in Headers */,
+				A8D7C11B1A75BE9900002385 /* hb-ot-layout-gpos-table.hh in Headers */,
+				A8D7C11C1A75BE9900002385 /* hb-unicode.h in Headers */,
+				A8D7C11D1A75BE9900002385 /* hb-ot-shape-complex-indic-private.hh in Headers */,
+				A8D7C11E1A75BE9900002385 /* hb-cache-private.hh in Headers */,
+				A8D7C11F1A75BE9900002385 /* hb-unicode-private.hh in Headers */,
+				A8D7C1201A75BE9900002385 /* ucdn.h in Headers */,
+				A8D7C1211A75BE9900002385 /* hb-atomic-private.hh in Headers */,
+				A8D7C1221A75BE9900002385 /* hb-ot-shape-complex-indic-machine.hh in Headers */,
+				A8D7C1231A75BE9900002385 /* hb-buffer-private.hh in Headers */,
+				A8D7C1241A75BE9900002385 /* hb-ot-map-private.hh in Headers */,
+				A8D7C1251A75BE9900002385 /* hb-buffer.h in Headers */,
+				A8D7C1261A75BE9900002385 /* hb-version.h in Headers */,
+				A8D7C1271A75BE9900002385 /* hb-ot-shape-complex-myanmar-machine.hh in Headers */,
+				A8D7C1281A75BE9900002385 /* hb-blob.h in Headers */,
+				A8D7C1291A75BE9900002385 /* hb-ot-layout-gdef-table.hh in Headers */,
+				A8D7C12A1A75BE9900002385 /* hb-face-private.hh in Headers */,
+				A8D7C12B1A75BE9900002385 /* hb-ot-layout-jstf-table.hh in Headers */,
+				A8D7C12C1A75BE9900002385 /* hb-ot-head-table.hh in Headers */,
+				A8D7C12D1A75BE9900002385 /* hb-ot-maxp-table.hh in Headers */,
+				A8D7C12E1A75BE9900002385 /* hb-ot-shape-complex-private.hh in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +716,7 @@
 			dependencies = (
 			);
 			name = hb_ios;
-			productName = "hb";
+			productName = hb;
 			productReference = 007050BE1114F93F003FCAE4 /* libhb_ios_d.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -565,7 +733,7 @@
 			dependencies = (
 			);
 			name = hb_ios_sim;
-			productName = "hb";
+			productName = hb;
 			productReference = 00CFD9E11135C3520091E310 /* libhb_ios_sim_d.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -582,7 +750,7 @@
 			dependencies = (
 			);
 			name = hb;
-			productName = "hb";
+			productName = hb;
 			productReference = D2AAC07E0554694100DB518D /* libhb_d.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -592,7 +760,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "hb" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -621,33 +789,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84960FE188C2EA900624C45 /* hb-ot-shape-fallback.cc in Sources */,
-				A84960FC188C2EA900624C45 /* hb-ot-shape-complex-thai.cc in Sources */,
-				A84960F1188C2EA900624C45 /* hb-ot-shape-complex-arabic.cc in Sources */,
-				A84960D8188C2EA900624C45 /* hb-font.cc in Sources */,
-				A84960D4188C2EA900624C45 /* hb-face.cc in Sources */,
-				A84960B4188C2EA900624C45 /* hb-set.cc in Sources */,
-				A8496102188C2EA900624C45 /* hb-ot-shape.cc in Sources */,
-				A84960C6188C2EA900624C45 /* ucdn.c in Sources */,
-				A84960D6188C2EA900624C45 /* hb-fallback-shape.cc in Sources */,
-				A84960EC188C2EA900624C45 /* hb-ot-map.cc in Sources */,
-				A84960BF188C2EA900624C45 /* hb-ucdn.cc in Sources */,
-				A84960B3188C2EA900624C45 /* hb-ft.cc in Sources */,
-				A84960FB188C2EA900624C45 /* hb-ot-shape-complex-sea.cc in Sources */,
-				A84960B7188C2EA900624C45 /* hb-shape-plan.cc in Sources */,
-				A84960D0188C2EA900624C45 /* hb-common.cc in Sources */,
-				A8496100188C2EA900624C45 /* hb-ot-shape-normalize.cc in Sources */,
-				A84960CA188C2EA900624C45 /* hb-blob.cc in Sources */,
-				A84960BE188C2EA900624C45 /* hb-shaper.cc in Sources */,
-				A84960F6188C2EA900624C45 /* hb-ot-shape-complex-indic.cc in Sources */,
-				A84960CD188C2EA900624C45 /* hb-buffer.cc in Sources */,
-				A84960B9188C2EA900624C45 /* hb-shape.cc in Sources */,
-				A84960F5188C2EA900624C45 /* hb-ot-shape-complex-indic-table.cc in Sources */,
-				A84960C1188C2EA900624C45 /* hb-unicode.cc in Sources */,
-				A8496103188C2EA900624C45 /* hb-ot-tag.cc in Sources */,
-				A84960E9188C2EA900624C45 /* hb-ot-layout.cc in Sources */,
-				A84960F8188C2EA900624C45 /* hb-ot-shape-complex-myanmar.cc in Sources */,
-				A84960F2188C2EA900624C45 /* hb-ot-shape-complex-default.cc in Sources */,
+				A8D7C0D91A75BE9900002385 /* hb-ot-shape-fallback.cc in Sources */,
+				A8D7C0DA1A75BE9900002385 /* hb-ot-shape-complex-thai.cc in Sources */,
+				A8D7C0DB1A75BE9900002385 /* hb-ot-shape-complex-arabic.cc in Sources */,
+				A8D7C0DC1A75BE9900002385 /* hb-font.cc in Sources */,
+				A8D7C0DD1A75BE9900002385 /* hb-face.cc in Sources */,
+				A8D7C0DE1A75BE9900002385 /* hb-set.cc in Sources */,
+				A8D7C0DF1A75BE9900002385 /* hb-ot-shape.cc in Sources */,
+				A8D7C0E01A75BE9900002385 /* ucdn.c in Sources */,
+				A8D7C0E11A75BE9900002385 /* hb-fallback-shape.cc in Sources */,
+				A8D7C0E21A75BE9900002385 /* hb-ot-map.cc in Sources */,
+				A8D7C0E31A75BE9900002385 /* hb-ucdn.cc in Sources */,
+				A8D7C0E41A75BE9900002385 /* hb-ft.cc in Sources */,
+				A8D7C0E51A75BE9900002385 /* hb-ot-shape-complex-sea.cc in Sources */,
+				A8D7C0E61A75BE9900002385 /* hb-shape-plan.cc in Sources */,
+				A8D7C0E71A75BE9900002385 /* hb-common.cc in Sources */,
+				A8D7C0E81A75BE9900002385 /* hb-ot-shape-normalize.cc in Sources */,
+				A8D7C0E91A75BE9900002385 /* hb-blob.cc in Sources */,
+				A8D7C0EA1A75BE9900002385 /* hb-shaper.cc in Sources */,
+				A8D7C0EB1A75BE9900002385 /* hb-ot-shape-complex-indic.cc in Sources */,
+				A8D7C0EC1A75BE9900002385 /* hb-buffer.cc in Sources */,
+				A8D7C0ED1A75BE9900002385 /* hb-shape.cc in Sources */,
+				A8D7C0EE1A75BE9900002385 /* hb-ot-shape-complex-indic-table.cc in Sources */,
+				A8D7C0EF1A75BE9900002385 /* hb-unicode.cc in Sources */,
+				A8D7C0F01A75BE9900002385 /* hb-ot-tag.cc in Sources */,
+				A8D7C0F11A75BE9900002385 /* hb-ot-layout.cc in Sources */,
+				A8D7C0F21A75BE9900002385 /* hb-ot-shape-complex-myanmar.cc in Sources */,
+				A8D7C0F31A75BE9900002385 /* hb-ot-shape-complex-default.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,33 +823,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84960FE188C2EA900624C45 /* hb-ot-shape-fallback.cc in Sources */,
-				A84960FC188C2EA900624C45 /* hb-ot-shape-complex-thai.cc in Sources */,
-				A84960F1188C2EA900624C45 /* hb-ot-shape-complex-arabic.cc in Sources */,
-				A84960D8188C2EA900624C45 /* hb-font.cc in Sources */,
-				A84960D4188C2EA900624C45 /* hb-face.cc in Sources */,
-				A84960B4188C2EA900624C45 /* hb-set.cc in Sources */,
-				A8496102188C2EA900624C45 /* hb-ot-shape.cc in Sources */,
-				A84960C6188C2EA900624C45 /* ucdn.c in Sources */,
-				A84960D6188C2EA900624C45 /* hb-fallback-shape.cc in Sources */,
-				A84960EC188C2EA900624C45 /* hb-ot-map.cc in Sources */,
-				A84960BF188C2EA900624C45 /* hb-ucdn.cc in Sources */,
-				A84960B3188C2EA900624C45 /* hb-ft.cc in Sources */,
-				A84960FB188C2EA900624C45 /* hb-ot-shape-complex-sea.cc in Sources */,
-				A84960B7188C2EA900624C45 /* hb-shape-plan.cc in Sources */,
-				A84960D0188C2EA900624C45 /* hb-common.cc in Sources */,
-				A8496100188C2EA900624C45 /* hb-ot-shape-normalize.cc in Sources */,
-				A84960CA188C2EA900624C45 /* hb-blob.cc in Sources */,
-				A84960BE188C2EA900624C45 /* hb-shaper.cc in Sources */,
-				A84960F6188C2EA900624C45 /* hb-ot-shape-complex-indic.cc in Sources */,
-				A84960CD188C2EA900624C45 /* hb-buffer.cc in Sources */,
-				A84960B9188C2EA900624C45 /* hb-shape.cc in Sources */,
-				A84960F5188C2EA900624C45 /* hb-ot-shape-complex-indic-table.cc in Sources */,
-				A84960C1188C2EA900624C45 /* hb-unicode.cc in Sources */,
-				A8496103188C2EA900624C45 /* hb-ot-tag.cc in Sources */,
-				A84960E9188C2EA900624C45 /* hb-ot-layout.cc in Sources */,
-				A84960F8188C2EA900624C45 /* hb-ot-shape-complex-myanmar.cc in Sources */,
-				A84960F2188C2EA900624C45 /* hb-ot-shape-complex-default.cc in Sources */,
+				A8D7C12F1A75BE9900002385 /* hb-ot-shape-fallback.cc in Sources */,
+				A8D7C1301A75BE9900002385 /* hb-ot-shape-complex-thai.cc in Sources */,
+				A8D7C1311A75BE9900002385 /* hb-ot-shape-complex-arabic.cc in Sources */,
+				A8D7C1321A75BE9900002385 /* hb-font.cc in Sources */,
+				A8D7C1331A75BE9900002385 /* hb-face.cc in Sources */,
+				A8D7C1341A75BE9900002385 /* hb-set.cc in Sources */,
+				A8D7C1351A75BE9900002385 /* hb-ot-shape.cc in Sources */,
+				A8D7C1361A75BE9900002385 /* ucdn.c in Sources */,
+				A8D7C1371A75BE9900002385 /* hb-fallback-shape.cc in Sources */,
+				A8D7C1381A75BE9900002385 /* hb-ot-map.cc in Sources */,
+				A8D7C1391A75BE9900002385 /* hb-ucdn.cc in Sources */,
+				A8D7C13A1A75BE9900002385 /* hb-ft.cc in Sources */,
+				A8D7C13B1A75BE9900002385 /* hb-ot-shape-complex-sea.cc in Sources */,
+				A8D7C13C1A75BE9900002385 /* hb-shape-plan.cc in Sources */,
+				A8D7C13D1A75BE9900002385 /* hb-common.cc in Sources */,
+				A8D7C13E1A75BE9900002385 /* hb-ot-shape-normalize.cc in Sources */,
+				A8D7C13F1A75BE9900002385 /* hb-blob.cc in Sources */,
+				A8D7C1401A75BE9900002385 /* hb-shaper.cc in Sources */,
+				A8D7C1411A75BE9900002385 /* hb-ot-shape-complex-indic.cc in Sources */,
+				A8D7C1421A75BE9900002385 /* hb-buffer.cc in Sources */,
+				A8D7C1431A75BE9900002385 /* hb-shape.cc in Sources */,
+				A8D7C1441A75BE9900002385 /* hb-ot-shape-complex-indic-table.cc in Sources */,
+				A8D7C1451A75BE9900002385 /* hb-unicode.cc in Sources */,
+				A8D7C1461A75BE9900002385 /* hb-ot-tag.cc in Sources */,
+				A8D7C1471A75BE9900002385 /* hb-ot-layout.cc in Sources */,
+				A8D7C1481A75BE9900002385 /* hb-ot-shape-complex-myanmar.cc in Sources */,
+				A8D7C1491A75BE9900002385 /* hb-ot-shape-complex-default.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,7 +897,6 @@
 				CHECKED_STL = "-D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -752,7 +919,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DEBUGGING_SYMBOLS = full;
 				GCC_FAST_MATH = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -775,7 +941,6 @@
 				CHECKED_STL = "-D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -802,7 +967,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DEBUGGING_SYMBOLS = full;
 				GCC_FAST_MATH = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -828,7 +992,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -852,7 +1015,6 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DEBUGGING_SYMBOLS = full;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -881,7 +1043,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OBJC_CALL_CXX_CDTORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -908,7 +1069,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
-				GCC_OBJC_CALL_CXX_CDTORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
